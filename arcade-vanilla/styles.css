@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+canvas {
+    background: rgb(48, 47, 47);
+    border-radius: 20px;
+}
+
+button {
+    margin-top: 20px;
+    display: block;
+    background-color: #caf045;
+    color: rgb(48, 47, 47);
+    font-size: 14px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+  }
